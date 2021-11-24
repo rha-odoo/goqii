@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="fpos_sgst_receive_pay_ac" model="account.fiscal.position.account.template">
+            <field name="position_id"     ref="fiscal_position_in_reverse_charge" />
+            <field name="account_src_id"  ref="l10n_in.p10051" />
+            <field name="account_dest_id" ref="l10n_in.p11232" />
+        </record>
+        <record id="fpos_cgst_receive_pay_ac" model="account.fiscal.position.account.template">
+            <field name="position_id"     ref="fiscal_position_in_reverse_charge" />
+            <field name="account_src_id"  ref="l10n_in.p10052" />
+            <field name="account_dest_id" ref="l10n_in.p11233" />
+        </record>
+        <record id="fpos_igst_receive_pay_ac" model="account.fiscal.position.account.template">
+            <field name="position_id"     ref="fiscal_position_in_reverse_charge" />
+            <field name="account_src_id"  ref="l10n_in.p10053" />
+            <field name="account_dest_id" ref="l10n_in.p11234" />
+        </record>
+    </data>
+</odoo>
